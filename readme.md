@@ -27,7 +27,7 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
     <title></title>
   </head>
   <title></title>
-  <<body>
+  <body>
     
   </body>
   
@@ -75,7 +75,7 @@ Useful for single page static sites
 ```
 Explain here
 ```
-A developer should use external style sheets where possible 
+A developer should use external style sheets where possible, makes it easier for projects to scale
 
 2.) Below are some different CSS selectors. Use CSS comments to describe what each selector will do.
 
@@ -84,11 +84,11 @@ A developer should use external style sheets where possible
 div {
   border-radius: 50%;
 }
-/* rounds the corneers of a div element */
+/* rounds the corners of a div element */
 .header p {
   font-size: 18px;
 }
-/* sets font size to 18px */
+/* sets font size to 18px in all p tags which are children of tags with the .header class */
 .footer {
   position: absolute;
   bottom: 0;
