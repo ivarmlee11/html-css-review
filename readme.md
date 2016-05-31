@@ -21,7 +21,7 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
 <!-- Code goes here -->
 <!DOCTYPE html>
 
-<html>
+<!-- <html>
   <head>
     <meta charset="utf-8">
     <title></title>
@@ -31,7 +31,7 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
     
   </body>
   
-</html>
+</html> -->
 ```
 
 2.) What are the differences between these tags?
@@ -58,7 +58,7 @@ Explain here.
 <!-- Inline CSS -->
 <div style="background-color: red;"></div>
 Frowned upon
-This style takes precedence over other forms of styling
+This style takes precedence over other styles
 
 <!-- Internal style sheet -->
 <style type="text/css">
@@ -88,7 +88,7 @@ div {
 .header p {
   font-size: 18px;
 }
-/* sets font size to 18px in all p tags which are children of tags with the .header class */
+/* sets font size to 18px in all p tags which are contained within the .header class */
 .footer {
   position: absolute;
   bottom: 0;
@@ -104,5 +104,4 @@ div {
   display: none;
   color: black;
 }
-```
 /* pseudo selector hover changes the display of an element when a mouse is hovering over it */
