@@ -19,6 +19,19 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
 
 ```html
 <!-- Code goes here -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <title></title>
+  <<body>
+    
+  </body>
+  
+</html>
 ```
 
 2.) What are the differences between these tags?
@@ -33,7 +46,7 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
 
 ```
 Explain here.
-```
+```One tag is self closing while the other is not.
 
 ---
 
@@ -44,6 +57,8 @@ Explain here.
 ```html
 <!-- Inline CSS -->
 <div style="background-color: red;"></div>
+Frowned upon
+This style takes precedence over other forms of styling
 
 <!-- Internal style sheet -->
 <style type="text/css">
@@ -51,6 +66,7 @@ Explain here.
     background-color: red;
   }
 </style>
+Useful for single page static sites
 
 <!-- External style sheet (not shown) -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -59,6 +75,7 @@ Explain here.
 ```
 Explain here
 ```
+A developer should use external style sheets where possible 
 
 2.) Below are some different CSS selectors. Use CSS comments to describe what each selector will do.
 
@@ -67,25 +84,25 @@ Explain here
 div {
   border-radius: 50%;
 }
-
+/* rounds the corneers of a div element */
 .header p {
   font-size: 18px;
 }
-
+/* sets font size to 18px */
 .footer {
   position: absolute;
   bottom: 0;
 }
-
+/* element will always be 0px from the bottom of the page */
 .splash-image {
   background-image: url("../images/ocean.jpg");
   background-size: cover;
   width: 100%;
 }
-
+/* applies a background image that covers 100% of the div */
 .ninja:hover {
   display: none;
   color: black;
 }
 ```
-
+/* pseudo selector hover changes the display of an element when a mouse is hovering over it */
